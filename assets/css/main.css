@@ -2285,9 +2285,10 @@ width: 50%;
 }
 /* Reduz imagem do banner */
 #banner .image img {
-  max-height: 320px;
+  max-height: 240px;
   width: auto;
 }
+
 
 
 
