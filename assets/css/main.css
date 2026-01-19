@@ -2135,17 +2135,18 @@ button,
  #banner .image {
   flex-grow: 0;
   flex-shrink: 0;
-  display: block;
-  margin: 0 auto 2em auto;
-  width: 35%;
+  display: flex;
+  margin: 0 auto;
+  width: 30%;
   text-align: center;
 }
 
 #banner .image img {
   width: 100%;
-  max-width: 320px;
   height: auto;
-  border-radius: 12px; 
+  max-height: 400px; 
+  object-fit: cover;
+  border-radius: 12px;
 }
 
   @media screen and (orientation: portrait) {
@@ -2273,6 +2274,7 @@ button,
   width: auto;
   object-fit: contain;
 }
+
 
 
 
